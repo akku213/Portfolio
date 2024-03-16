@@ -1,0 +1,119 @@
+.HomeContainer{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 5vh;
+}
+
+.Lefthm{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+
+}
+.designation{
+    padding-bottom: 20px;
+    font-size: medium;
+}
+.button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #F9D030;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    color: white;
+    overflow: hidden;
+    margin-top: 2vh;
+  }
+  
+  .button,
+  .button__icon,
+  .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    transform: translateX(15px);
+    font-weight: 600;
+    color: white;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 38px;
+    background-color: #c29c07;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 20px;
+    fill: white;
+  }
+  
+  .button:hover {
+    background-color: #F9D030;
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 100%;
+    transform: translateX(-6.5%);
+  }
+  
+  .button:active .button__icon {
+    background-color: #F9D030;
+  }
+  
+  .button:active {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border: none;
+  }
+
+.Righthm{
+    height: 100vh;
+    width: 50vw;
+}
+.image{
+    background-color: #F9D030;
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 30vw;
+
+}
+.image .pp{
+    margin-top: -10vh;
+    margin-left: 4vw;
+}
+
+
+.socials a {
+  text-decoration: none;
+  display: inline-block; /* Add this to make the icon inline with text */
+  transition: transform 0.2s, color 0.2s, box-shadow 0.2s;
+  margin: 8px;
+  padding: 3px;
+  font-size: 24px;
+}
+
+.socials a:hover {
+  color: #333; /* Darken the text color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
+  transform: scale(1.1); /* Optional: You can add a slight scale effect on hover */
+}

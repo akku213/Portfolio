@@ -1,0 +1,20 @@
+.navBar ul{
+    display: flex;
+    list-style: none;
+    background-color:#F9D030 ;
+    width: 100vw;  
+    justify-content: center;
+    /* margin-left: 10vw; */
+}
+.navBar li{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+.navBar li:hover{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 900;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}

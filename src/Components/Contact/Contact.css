@@ -1,0 +1,159 @@
+.contactContainer{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+    font-family: "Poppins", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.contactForm{
+    /* border: 2px solid green; */
+    height: 10vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}
+.contactBox{
+    /* border: 1px solid violet; */
+    margin-top: 5vh;
+    height: 80vh;
+    width: 100vw;
+    margin-left: -3vw;
+    display: flex;
+    justify-content: center;
+}
+.leftContact{
+    /* border: 2px solid blue; */
+    width: 27vw;
+    background-color: #F9D030;
+}
+.rightContact{
+    /* border: 2px solid pink; */
+    width: 45vw;
+}
+.lgit{
+    /* border: 1px solid green; */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.leftContact{
+    /* box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.leftContact h3{
+    color: white;
+}
+.mtContact{
+    height: 60vh;
+    width: 34vw;
+    /* border: 1px solid brown; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: -5vh;
+}
+.address{
+    /* border: 1px solid orange; */
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 28vw;
+    height: 11vh;
+}
+.detailAddress{
+    width: 22vw;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+}
+.iconAddress{
+    width: 6vw;
+    /* border: 2px solid grey; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 11vh;
+    align-items: center;
+
+}
+.icons{
+    border: 2px solid rgba(245, 245, 245, 0.3);
+    width: 3vmax;
+    display: flex;
+    height: 3vmax;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.rightContact{
+    width: 40vw;
+    background-color: white;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.rgit{
+    height: 13vh;
+    display: flex;
+}
+.rgit h3{
+    font-size: 28px;
+    margin-top:7vh ;
+    margin-left: 3vw;
+    font-weight: 300;
+}
+.firstrow{
+    display: flex;
+}
+.inputDetails{
+    /* border: 2px solid blue; */
+    height: 68vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    margin-top: 20px;
+}
+.fullName{
+    /* border: 1px solid violet; */
+    height: 15vh;
+    font-size: small;
+}
+.fullName label{
+    font-weight: 600;
+}
+.firstrow .fullName{
+    width: 18vw;
+}
+.firstrow .inputborder{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 23px;
+    width: 14vw;
+}
+.inputborder{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 23px;
+    width: 32vw;
+    font-family: "Poppins", Arial, sans-serif;
+    color: black;
+}
+.inputborder:focus{
+    outline: none;
+}
+.btnSubmit{
+    background-color: #F9D030;
+    border-radius: 10px;
+    height: 7vh;
+    width: 8vw;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+    border: none;
+}
+.btnSubmit:hover{
+    background-color: #f3d768;
+}
