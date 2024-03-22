@@ -43,7 +43,7 @@ const Projects=() => {
                 <a href="https://github.com/akku213/netflix-gpt" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
                 <FiGithub size={20} />
                 </a>
-                <a href="https://netflixmovies.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+                <a href="https://showmovies03.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
                 <TbExternalLink size={20} />
                 </a>
                 </div>
