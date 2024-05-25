@@ -3,6 +3,7 @@ import { FiGithub } from "react-icons/fi";
 import { TbExternalLink } from "react-icons/tb";
 import NetflixLogo from '../../Assets/Netflix_logo.png'
 import SwiggyLogo from '../../Assets/Swiggy_logo.png'
+import Wardrobezz from '../../Assets/Wardrobezz.png'
 
 const Projects=() => {
     return(
@@ -27,8 +28,8 @@ const Projects=() => {
                 <TbExternalLink size={20} />
                 </a>
                 </div>
-                </div>
-                <div className="project-card">
+            </div>
+            <div className="project-card">
                 <img src={NetflixLogo} alt="Netflix" />
                 <ul>
                     <li>Enabled React/Firebase user authentication.</li>
@@ -39,15 +40,35 @@ const Projects=() => {
                 <div className="icons">
                     {/* <FiGithub size={20} />
                     <TbExternalLink size={20} /> */}
+                    <a href="https://github.com/akku213/netflix-gpt" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+                    <FiGithub size={20} />
+                    </a>
+                    <a href="https://showmovies03.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+                    <TbExternalLink size={20} />
+                    </a>
+                </div>
+            </div>
 
-                <a href="https://github.com/akku213/netflix-gpt" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
-                <FiGithub size={20} />
-                </a>
-                <a href="https://showmovies03.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
-                <TbExternalLink size={20} />
-                </a>
+            <div className="project-card">
+                <img src={Wardrobezz} alt="Wardrobezz" />
+                <ul>
+                    <li>Developed a MERN stack ecommerce platform for a seamless shopping experience.</li>
+                    <li>Implemented an admin dashboard for analyzing sales, user activity, and inventory.</li>
+                    <li>Integrated Stripe payment gateway.</li>
+                    <li>Incorporated CORS and JWT for cross-origin access and authentication.</li>
+                </ul>
+                <div className="icons">
+                    {/* <FiGithub size={20} />
+                    <TbExternalLink size={20} /> */}
+                    <a href="https://github.com/akku213/Wardrobezz" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+                    <FiGithub size={20} />
+                    </a>
+                    <a href="https://wardrobezz.onrender.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+                    <TbExternalLink size={20} />
+                    </a>
                 </div>
-                </div>
+            </div>
+
             </div>
             
         </>
