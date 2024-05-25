@@ -3,7 +3,7 @@ import "./Home.css"
 import profPic from "../../Assets/profPic.png"
 // import NavBar from "../NavBar/NavBar"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import cv from "../../Assets/Akanksha_Shrivastav_CV.pdf"
+import cv from "../../Assets/AKANKSHA SHRIVASTAV_CV_FULL_STACK.pdf"
 
 const Home=() => {
     return(

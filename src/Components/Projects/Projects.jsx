@@ -23,7 +23,7 @@ const Projects=() => {
                 <a href="https://github.com/akku213/Swiggy" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
                 <FiGithub size={20} />
                 </a>
-                <a href="https://drakendeliver.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+                <a href="https://drakenfoods.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
                 <TbExternalLink size={20} />
                 </a>
                 </div>
